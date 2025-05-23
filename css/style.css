@@ -329,24 +329,24 @@ img{
   border-radius: 2px;
   display: grid;
   grid-template-columns: repeat(6, 1fr);
-  
-  
+  background: url(../images/bg-bingo.jpg) no-repeat;
+  background-size: 100% 100%;
 }
 
 .bingo-cell {
   width: 100%;
-  background-color: #fff;
+  background-color: transparent;
   display: flex;
   justify-content: center;
   align-items: center;
   font-weight: bold;
-  color: #ff0864;
+  color: #FFF;
   aspect-ratio: 1 / 1;
 }
 .bingo-cell img{
   width: 50%;
 }
-.bingo-cell:nth-child(4){
+/*.bingo-cell:nth-child(4){
   background:#ff0874;
   color: #FFF;
 }
@@ -421,9 +421,22 @@ img{
 .bingo-cell:nth-child(37){
   background:#ff0874;
   color: #FFF;
+}*/
+
+
+
+.bingo-cell:nth-child(1),.bingo-cell:nth-child(3),
+.bingo-cell:nth-child(5),.bingo-cell:nth-child(8),
+.bingo-cell:nth-child(10),.bingo-cell:nth-child(12),
+.bingo-cell:nth-child(13),.bingo-cell:nth-child(15),
+.bingo-cell:nth-child(17),.bingo-cell:nth-child(20),
+.bingo-cell:nth-child(22),.bingo-cell:nth-child(24),
+.bingo-cell:nth-child(25),.bingo-cell:nth-child(27),
+.bingo-cell:nth-child(29),.bingo-cell:nth-child(32),
+.bingo-cell:nth-child(34),.bingo-cell:nth-child(36){
+  background: #FFF;
+  color: #ff549d;
 }
-
-
 
 .bingo-cell::before {
   content: attr(data-number);
