@@ -495,7 +495,7 @@ p.error{
   background: url(../images/bg-main-popup-2.png) no-repeat;
   background-size: 100% 100%;
   width: 50%;
-  padding: 6%;
+  padding: 4%;
 }
 .md-popup-5 .md-row .md-col-1{
   float: left;
@@ -718,6 +718,9 @@ p.error{
   .md-popup-7{
     width: 50%;
   }
+  .md-popup-8{
+    width: 40%;
+  }
   .md-popup-4 .md-button-popup span{
     font-size: calc(8px + 2vw);
   }
@@ -737,6 +740,9 @@ p.error{
   }
   .md-popup-7{
     width: 50%;
+  }
+  .md-popup-8{
+    width: 40%;
   }
   .md-popup-7 .md-time{
     width: 100%;
