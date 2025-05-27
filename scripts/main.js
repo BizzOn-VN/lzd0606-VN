@@ -30,9 +30,6 @@ jQuery(document).on("ready",function () {
                }).trigger('click');
     // $("#md-popup-3").fancybox().trigger('click');
  // $("#md-popup-7").fancybox().trigger('click');
+  // $("#md-popup-8").fancybox().trigger('click');
 
-
-
-
-      
 
