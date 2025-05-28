@@ -296,6 +296,8 @@ img{
   font-size: calc(20px + 1vw);
   text-align: center;
   margin-bottom: 30px;
+  position: relative;
+  z-index: 2;
 }
 .md-popup-2 .ico-8{
   width: 60%;
