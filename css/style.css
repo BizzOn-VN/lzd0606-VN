@@ -845,11 +845,12 @@ p.error{
 }
 @media screen and (max-width: 767px){
   .md-popup-4 .fancybox-close-small{
-    top: -45px;
-    right: 0px;
+    top: 15px;
+    right: 15px;
   }
   .md-popup-5 .fancybox-close-small{
-    top: -35px;
+    top: 35px;
+    right: 30px;
   } 
   .loader{
     width: 100%;
