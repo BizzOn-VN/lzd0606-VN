@@ -771,7 +771,7 @@ p.error{
     z-index: 2;
 }
 .img-homepage:hover{
-  transform: rotate(20deg);
+  transform: scale(1.1);
 }
 .active-1{
   top: 200%;
