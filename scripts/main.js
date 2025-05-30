@@ -49,3 +49,9 @@ $(document).ready(function() {
         clickSlide: false
     });
 });
+
+$('.img-homepage').click(function(){
+  $(this).css('top','100%');
+  $(".text-homepage").css('top','-100%');
+  // $(".md-homepage").css('visibility','hidden');
+});

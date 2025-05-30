@@ -760,7 +760,20 @@ p.error{
       left: 35%;
       top: 61%;
       width: 31%;
-  animation: ico-9 infinite 5s;
+      transition-duration: 0.5s;
+}
+.active-1{
+  top: 100%;
+}
+.text-homepage{
+  position: absolute;
+      left: 22%;
+    top: 20%;
+    width: 58%;
+    z-index: 2;
+}
+.img-homepage:hover{
+  transform: rotate(20deg);
 }
 @keyframes ico-9{
   0%{
