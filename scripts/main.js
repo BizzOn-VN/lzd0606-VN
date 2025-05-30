@@ -29,7 +29,23 @@ jQuery(document).on("ready",function () {
    //                clickOutside: false,
    //             }).trigger('click');
 
- // $("#md-popup-7").fancybox().trigger('click');
-  // $("#md-popup-8").fancybox().trigger('click');
+ // $("#md-popup-7").fancybox({
+   //                 clickSlide: false,
+   //                clickOutside: false,
+   //             }).trigger('click');
+ // $("#md-popup-8").fancybox({
+   //                 clickSlide: false,
+   //                clickOutside: false,
+   //             }).trigger('click');
+// $("#md-popup-9").fancybox({
+//                    clickSlide: false,
+//                   clickOutside: false,
+//                }).trigger('click');
 
 
+$(document).ready(function() {
+    $('[data-fancybox]').fancybox({
+        clickOutside: false,
+        clickSlide: false
+    });
+});
