@@ -51,7 +51,7 @@ $(document).ready(function() {
 });
 
 $('.img-homepage').click(function(){
-  $(this).css('top','100%');
-  $(".text-homepage").css('top','-100%');
-  // $(".md-homepage").css('visibility','hidden');
+  $(this).addClass('active-1')
+  $(".text-homepage").addClass('active-2');
+  $(".md-homepage").addClass('active-3');
 });

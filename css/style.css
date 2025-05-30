@@ -762,9 +762,7 @@ p.error{
       width: 31%;
       transition-duration: 0.5s;
 }
-.active-1{
-  top: 100%;
-}
+
 .text-homepage{
   position: absolute;
       left: 22%;
@@ -774,6 +772,19 @@ p.error{
 }
 .img-homepage:hover{
   transform: rotate(20deg);
+}
+.active-1{
+  top: 200%;
+  transition-duration: 1s;
+}
+.active-2{
+  top: -200%;
+   transition-duration: 1s;
+}
+.active-3{
+  opacity: 0;
+  transition-delay: 0.5s;
+   transition-duration: 1s;
 }
 @keyframes ico-9{
   0%{
