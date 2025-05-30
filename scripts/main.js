@@ -24,10 +24,10 @@ jQuery(document).on("ready",function () {
 
 
 
-   // $("#md-popup-2").fancybox({
-   //                 clickSlide: false,
-   //                clickOutside: false,
-   //             }).trigger('click');
+   $("#md-popup-2").fancybox({
+                   clickSlide: false,
+                  clickOutside: false,
+               }).trigger('click');
 
  // $("#md-popup-7").fancybox({
    //                 clickSlide: false,
