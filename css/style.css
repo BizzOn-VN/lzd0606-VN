@@ -433,6 +433,11 @@ img{
   padding: 30px 0px;
    font-family: 'Druk-Medium';
    text-transform: uppercase;
+   animation: ico-9 infinite 5s;
+}
+.md-content .md-main-content .md-col a:hover{
+  transform: scale(1.1);
+  animation: none;
 }
 .md-content .md-dk a{
   display: block;
@@ -516,6 +521,10 @@ img{
   text-align: center;
   width: 50%;
   color: #FFF;
+  transition-duration: 0.5s;
+}
+.md-popup-4 .md-button-popup:hover{
+  width: 60%;
 }
 .md-popup-4 .md-button-popup span{
   text-transform: uppercase;
@@ -747,6 +756,48 @@ p.error{
       left: 35%;
       top: 61%;
       width: 31%;
+  animation: ico-9 infinite 5s;
+}
+@keyframes ico-9{
+  0%{
+    transform: scale(1.0);
+  }
+  5%{
+    transform: scale(1.1);
+  }
+  10%{
+    transform: scale(1.0);
+  }
+  15%{
+    transform: scale(1.1);
+  }
+  20%{
+    transform: scale(1.1);
+  }
+  25%{
+    transform: scale(1.0);
+  }
+  30%{
+    transform: scale(1.1);
+  }
+  35%{
+    transform: scale(1.0);
+  }
+  40%{
+    transform: scale(1.1);
+  }
+  45%{
+    transform: scale(1.0);
+  }
+  50%{
+    transform: scale(1.1);
+  }
+  55%{
+    transform: scale(1.0);
+  }
+  100%{
+    transform: scale(1.0);
+  }
 }
 @media screen and (min-width: 1500px) and (max-width: 2500px){
   .md-popup-5 .md-col-1 .md-text-4{
@@ -772,6 +823,9 @@ p.error{
   }
 }
 @media screen and (max-width: 1366px){
+  .md-content .md-main-content .md-col a{
+    padding: 20px 0px;
+  }
   .md-popup-5 .md-col-1 .md-text-4{
     font-size: calc(1px + 0.8vw);
   }
@@ -915,6 +969,7 @@ p.error{
     width: 70%;
     font-size: calc(13px + 2vw);
     margin-top: -30px;
+    padding: 20px 0px;
   }
   .md-step-1{
     width: 80%;
