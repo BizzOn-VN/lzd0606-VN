@@ -449,7 +449,8 @@ img{
   transform: scale(1.1);
 }
 .md-content .md-dk a{
-  display: block;
+  display: table;
+  margin: 0 auto;
   text-align: center;
   color: #FFF;
   text-decoration: underline;
