@@ -430,10 +430,9 @@ img{
   display: table;
   margin: 0 auto;
   display: block;
-  padding: 20px 0px;
+  padding: 30px 0px;
    font-family: 'Druk-Medium';
    text-transform: uppercase;
-   transform: rotate(2deg);
 }
 .md-content .md-dk a{
   display: block;
@@ -846,10 +845,10 @@ p.error{
   display: none;
 }
 .text-banner{
-  width: 24.5%;
-  position: absolute;
-  left: 37%;
-  top: 2%;
+  width: 29%;
+    position: absolute;
+    left: 35%;
+    top: 2.5%;
 }
 .md-popup-9{
   width: 30%;
@@ -885,7 +884,7 @@ p.error{
   .md-content .md-main-content .md-col{
     width: 100%;
     float: none;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
   }
   .md-content{
     top: 33%;
