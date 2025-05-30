@@ -289,7 +289,8 @@ img{
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  width: 130%;
+  width: 150%;
+  top: 5%;
   animation: 1s bingo-2;
 }
 @keyframes bingo-2{
@@ -297,8 +298,11 @@ img{
     width: 0%;
   }
   100%{
-    width: 130%;
+    width: 150%;
   }
+}
+.md-popup-2 .fancybox-is-open .fancybox-bg{
+  opacity: 1;
 }
 .md-popup-2 h6{
   font-family: 'EuclidCircularAVN-Bold';
