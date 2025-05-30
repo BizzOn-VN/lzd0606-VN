@@ -301,9 +301,6 @@ img{
     width: 150%;
   }
 }
-.md-popup-2 .fancybox-is-open .fancybox-bg{
-  opacity: 1;
-}
 .md-popup-2 h6{
   font-family: 'EuclidCircularAVN-Bold';
   font-size: calc(20px + 1vw);
