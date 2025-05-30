@@ -1125,4 +1125,22 @@ p.error{
     top: 60.5%;
     width: 83%;
   }
+  .text-homepage{
+    left: 7%;
+        top: 25.5%;
+        width: 86%;
+  }
+  .active-1{
+    top: 200%;
+    transition-duration: 1s;
+  }
+  .active-2{
+    top: -200%;
+     transition-duration: 1s;
+  }
+  .active-3{
+    opacity: 0;
+    transition-delay: 0.5s;
+     transition-duration: 1s;
+  }
 }

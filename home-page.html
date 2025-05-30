@@ -14,9 +14,18 @@
 <body>
 <main class="page-main">
 	<img src="./images/bg-homepage.jpg" alt="" class="md-desktop md-homepage">
-  <img src="./images/bg-homepage-mb.jpg" alt="" class="md-mobile">
-  <img src="./images/text-homepage.png" alt="" class="text-homepage">
+  <img src="./images/bg-homepage-mb.jpg" alt="" class="md-mobile md-homepage">
+  <img src="./images/text-homepage.png" alt="" class="text-homepage md-desktop">
+  <img src="./images/text-homepage-mb.png" alt="" class="text-homepage md-mobile">
 	<a href="#" class="img-homepage"><img src="./images/img-homepage.png" alt="" ></a>
+  <script>
+    document.querySelector('.img-homepage').addEventListener('click', function(e) {
+      e.preventDefault(); // Ngăn chuyển trang ngay lập tức
+      setTimeout(function() {
+        window.location.href = e.currentTarget.href; // Chuyển trang sau 2 giây
+      }, 2000);
+    });
+  </script>
 </main>
 
 <script src="vendor/jquery/jquery-3.4.1.min.js" type="text/javascript"></script>
