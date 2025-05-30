@@ -445,6 +445,7 @@ img{
   color: #FFF;
   text-decoration: underline;
    font-family: 'EuclidCircularAVN-Regular';
+   font-size: calc(8px + 1vw);
 }
 .md-content .md-main-content{
   margin-bottom: 50px;
@@ -524,7 +525,7 @@ img{
   transition-duration: 0.5s;
 }
 .md-popup-4 .md-button-popup:hover{
-  width: 60%;
+  width: 52%;
 }
 .md-popup-4 .md-button-popup span{
   text-transform: uppercase;
@@ -614,6 +615,9 @@ p.error{
   width: 20%;
   background: transparent;
   border: none;
+}
+.md-popup-6 .md-button-popup:hover{
+  width: 21%;
 }
 .md-popup-6{
   width: 50%;
