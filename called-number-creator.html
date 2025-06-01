@@ -2,7 +2,7 @@
 <html lang="vi">
 <head>
   <meta charset="UTF-8">
-  <title>Laz0606 VN - called-number-creator</title>
+  <title>Danh sách sản phẩm và số</title>
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -24,7 +24,8 @@
     .item-button {
       padding: 10px 20px;
       background-color: #eee;
-      border: 1px solid #ccc;
+      border: 2px solid #ccc;
+      border-color: green;
       cursor: pointer;
       border-radius: 5px;
       font-size: 16px;
@@ -33,6 +34,8 @@
     .item-button.used {
       background-color: #ccc;
       cursor: not-allowed;
+      border-color: rgb(255, 65, 156);
+;
     }
     .called-list {
       display: flex;
@@ -40,9 +43,11 @@
       gap: 5px;
     }
     .called-item {
-      background-color: orange;
+      background-color: white;
+      border-color: rgb(255, 65, 156);
+      border: 2px solid #ff419c;
       padding: 10px 10px;
-      border-radius: 5px;
+      border-radius: 5px; 
       position: relative;
     }
     .remove-btn {
