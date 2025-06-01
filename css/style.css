@@ -679,8 +679,8 @@ p.error{
   width: 30%;
   margin: 0 auto 20px auto;
 }
-.md-popup-6 .md-main-popup .md-right a .upload{
-  width: 60%;
+.upload{
+  width: 60% !important;
   margin: 0 auto 20px auto;
 }
 .md-popup-6 .md-main-popup .md-right .error{
